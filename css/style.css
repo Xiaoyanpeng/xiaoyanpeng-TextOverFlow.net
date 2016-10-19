@@ -1,0 +1,30 @@
+.text{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    height: 100%;
+    font-family:'微软雅黑';
+    font-size: 14px;
+    color: #999;
+}
+.word{
+    width: 20vw;
+    height: 60px;
+    line-height: 20px;
+    background-color: white;
+    margin: 30px auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.one{
+    width: 20vw;
+    height: 20px;
+    line-height: 20px;
+    background-color: white;
+    margin: 30px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
